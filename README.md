@@ -1,5 +1,5 @@
 # Email-Auto-comp
-A program for comparing bookings in Teamup against Google sheets
+A program for comparing bookings in Teamup against Google sheets (comp of cvs files)
 
 
 ## Prerequisites
