@@ -50,7 +50,7 @@ def main():
             processed_emails.add(email)
 
         for sim_em in similar_emails:
-            print(f"Not exact, but similar to existing: {sim_em}")
+            print(f"Probably typo email: {sim_em}")
 
     else:
         print("OK: All emails are valid and match the Google Sheet.")
