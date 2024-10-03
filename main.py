@@ -32,8 +32,8 @@ def comp_emails(google_sheet_all, teamup_records):
 
 
 def main():
-    google_sheet_all = gs.fetch_all_google_emails("google_sheets_cvs_files")
-    teamup_records = tu.fetch_all_teamup_records("teamup_bookings_cvs_files")
+    google_sheet_all = gs.fetch_all_google_emails("google_sheets_csv_files")
+    teamup_records = tu.fetch_all_teamup_records("teamup_bookings_csv_files")
 
     invalid_records = comp_emails(google_sheet_all, teamup_records)
 
